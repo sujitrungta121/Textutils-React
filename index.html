@@ -7,6 +7,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&family=Poppins&family=Ubuntu:ital,wght@0,400;1,300&display=swap" rel="stylesheet">
     <title>Sujit-Developer Portfolio</title>
+    <link rel="stylesheet" href="style.css">
     <style>
         *{
             margin:0;
@@ -24,13 +25,17 @@ font-family: 'Poppins', sans-serif;
             top:0px;
         }
         nav{
-            display:flex;
-            justify-content:space-around ;
-            align-items:center; 
-            background-color: rgb(1, 1, 26);
-            height:80px;
+            display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(5, -2, 141);
+    height: 80px;
+    height: 42px;
             
 
+        }
+        .heading{
+            text-align:center;
         }
         nav ul{
             display:flex;
@@ -70,56 +75,24 @@ font-family: 'Poppins', sans-serif;
             text-decoration:none;
             color:white;
         }
-        nav ul li a::hover{
+     nav ul li a:hover{
             color:rgb(126, 126, 253);
         }
         #element {
             color:rgb(126, 126, 253);;
         }
-        .secondsection {
+        /* .secondsection {
             width:80vw;
             margin:auto;
             height:80vh;
-        }
+        } */
         
-          main  hr{
-             border:0;
-             background:#9c97f1;
-             height:1.2px;
-             margin:40px 84px;
-            }
-        .secondsection h1{
+          
+        /* .secondsection h1{
             font-size:1.5rem;
-        }
-        .secondsection .box{
-          background: white;
-          width:80vw; 
-          height:2px;
-          margin:56px 0;    
-         display:flex;
-       
-        
-        }
-        .secondsection .vertical{
-            background: white;
-            height:93px;
-            width:1px;
-            margin:0 70px
-           
-        }
-        .verticaltitle{
-            position:relative;
-            top:75px;
-            width:120px;
-            font-size:14px;
-        }
-        .verticaldesc{
-            position:relative;
-            top:86px;
-            color:gray;
-            font-size:10px;
-            width:100px;
-        }
+        } */
+   
+     
         footer{
             background-color: purple;
         
@@ -141,14 +114,14 @@ font-family: 'Poppins', sans-serif;
 <body>
     <header>
         <nav>
-            <div class="left" >Sijit's Portfolio</div>
+            <div class="left" >Sujit's Portfolio</div>
             <a class="right">
        <ul>
         <li> <a href="/">Home</a></li>
         <li> <a href="#about">About</a></li>
         <li> <a href="#skills">Skills</a></li>
-        <li> <a href="#experience">Experience</a></li>
-        <li> <a href="#projects">Projects</a></li>
+        
+        <li> <a href="#project">Projects</a></li>
        </ul>
             </div>
         </nav>
@@ -158,30 +131,88 @@ font-family: 'Poppins', sans-serif;
      <div class="leftsection">Hii, I am <span class="purple"> Sujit Rungta</span>  
         <div>and I am a </div> <span id="element"></span>
         <div class="button">
-          <a href="Sujit Resume (1).pdf" download>Download my cv</a>
+        
         </div>
      </div>
-     <div class="rightsection">we have to add coders image</div>
+     <div class="rightsection">
+        <img src="images\myimage.jpeg">
         </section>
 
      <section class="secondSection" id="about">
-        <h1>ABOUT</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit iusto vero ex neque iste rem cum, nam ab soluta quae magnam, distinctio voluptatibus expedita adipisci natus eligendi maxime? Laudantium officiis id veniam reiciendis error?</p>
+        <h1 class="heading">About</h1>
+        <div class="about">
+        <p>Hello! I am Sujit Rungta student of Netaji Subhash Engineering College. I am currently Persuing my B.Tech at Computer Science and Business System.
+
+            I have a grasp on C++/Python programming language. Know some Frontend Work.</p>
+            <div class="stats">
+             <h2>Frontend Web Developer, App Developer</h2>
+            <!-- <p >To Furrther Know about my Skills, Experience and Projects take a look to the next sections or you can download my CV.</p> -->
+              <div class="btn">
+            <a href="Sujit Resume (1).pdf" download>Download my cv</a> 
+        </div>
+            </div>
+          </div>
         
     </section>
 
     <section class="thirdSection" id="skills">
-        <h1>SKILLS</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, cumque dolorum eos non qui modi itaque soluta illum perspiciatis temporibus fugiat, sunt quis molestiae voluptas? Amet quae, nobis ullam voluptate sed incidunt exercitationem sapiente magnam excepturi cumque qui perferendis est ducimus aut quibusdam. Tempora aliquid id itaque eveniet culpa repellendus architecto molestiae accusantium omnis qui. Rem voluptate adipisci ducimus architecto eius consectetur sequi, illum eveniet fuga culpa deleniti tempore quasi ipsam quidem voluptatum consequuntur reprehenderit perferendis suscipit debitis. Consequuntur asperiores, quo deleniti dicta sit adipisci veritatis hic repellendus molestias at dolores! Sed, explicabo consequuntur natus aut at cupiditate exercitationem aperiam.</p>
+        <h1 class="heading">SKILLS</h1>
+      
+        <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, cumque dolorum eos non qui modi itaque soluta illum perspiciatis temporibus fugiat, sunt quis molestiae voluptas? Amet quae, nobis ullam voluptate sed incidunt exercitationem sapiente magnam excepturi cumque qui perferendis est ducimus aut quibusdam. Tempora aliquid id itaque eveniet culpa repellendus architecto molestiae accusantium omnis qui. Rem voluptate adipisci ducimus architecto eius consectetur sequi, illum eveniet fuga culpa deleniti tempore quasi ipsam quidem voluptatum consequuntur reprehenderit perferendis suscipit debitis. Consequuntur asperiores, quo deleniti dicta sit adipisci veritatis hic repellendus molestias at dolores! Sed, expli cabo consequuntur natus aut at cupiditate exercitationem aperiam.</p> -->
+       <div class="skillsContainer">
+        <div class="skills">
+            <h3>Fronted Web Developer</h3>
+            <ul>
+                <li ><img src="images\HTML5_badge.png" alt="no text">HTML5</li>
+                <li > <img src="images\CSS-Logo.png" alt="no text">CSS</li>
+                <li ><img src="images\js_image.jpg" alt="no text">JavaScript</li>
+                <li ><img src="images\React-logo.jpg" alt="no text">ReactJS</li >
+            </ul>
+        </div>
+        <div class="skills">
+            <h3>Programming Languages and Problem Solving</h3>
+            <ul>
+                <li ><img src="images\c_logo.jpg" alt="no text">C</li >
+                <li ><img src="images\c++_logo.png" alt="no text">C++</li >
+               <li ><img src="images\DSA.jpg" alt="no text">Data Structures and algorithms</li >
+               
+            </ul>
+        </div>
+
+      
+
+        <div class="skills">
+            <h3>App Developement and Database</h3>
+            <ul>
+                <li ><img src="images\react-native.png" alt="no text">React-Native</li >
+                <li ><img src="images\tailwindcss.jpg" alt="no text">Tailwind CSS</li >
+                 <li ><img src="images/SQL.jpg" alt="no text">SQL</li >
+               
+            </ul> 
+        </div>
+
+    
+    </div>
+  
     </section>
 
-    <section class="thirdSection" id="experience">
-        <h1>Experience</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, cumque dolorum eos non qui modi itaque soluta illum perspiciatis temporibus fugiat, sunt quis molestiae voluptas? Amet quae, nobis ullam voluptate sed incidunt exercitationem sapiente magnam excepturi cumque qui perferendis est ducimus aut quibusdam. Tempora aliquid id itaque eveniet culpa repellendus architecto molestiae accusantium omnis qui. Rem voluptate adipisci ducimus architecto eius consectetur sequi, illum eveniet fuga culpa deleniti tempore quasi ipsam quidem voluptatum consequuntur reprehenderit perferendis suscipit debitis. Consequuntur asperiores, quo deleniti dicta sit adipisci veritatis hic repellendus molestias at dolores! Sed, explicabo consequuntur natus aut at cupiditate exercitationem aperiam.</p>
-    </section>
     <section class="thirdSection" id="project">
-        <h1>Project</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, cumque dolorum eos non qui modi itaque soluta illum perspiciatis temporibus fugiat, sunt quis molestiae voluptas? Amet quae, nobis ullam voluptate sed incidunt exercitationem sapiente magnam excepturi cumque qui perferendis est ducimus aut quibusdam. Tempora aliquid id itaque eveniet culpa repellendus architecto molestiae accusantium omnis qui. Rem voluptate adipisci ducimus architecto eius consectetur sequi, illum eveniet fuga culpa deleniti tempore quasi ipsam quidem voluptatum consequuntur reprehenderit perferendis suscipit debitis. Consequuntur asperiores, quo deleniti dicta sit adipisci veritatis hic repellendus molestias at dolores! Sed, explicabo consequuntur natus aut at cupiditate exercitationem aperiam.</p>
+        <h1 class="heading">Project</h1>
+        <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, cumque dolorum eos non qui modi itaque soluta illum perspiciatis temporibus fugiat, sunt quis molestiae voluptas? Amet quae, nobis ullam voluptate sed incidunt exercitationem sapiente magnam excepturi cumque qui perferendis est ducimus aut quibusdam. Tempora aliquid id itaque eveniet culpa repellendus architecto molestiae accusantium omnis qui. Rem voluptate adipisci ducimus architecto eius consectetur sequi, illum eveniet fuga culpa deleniti tempore quasi ipsam quidem voluptatum consequuntur reprehenderit perferendis suscipit debitis. Consequuntur asperiores, quo deleniti dicta sit adipisci veritatis hic repellendus molestias at dolores! Sed, expli cabo consequuntur natus aut at cupiditate exercitationem aperiam.</p> -->
+         <div class="projectContainer">
+            <div class="projects">
+                <h2 class="projectHeading">Weather Application</h2>
+           
+
+            </div>
+
+            <div class="projects">
+                <h2 class="projectHeading">Music Application</h2>
+               
+                
+            </div>
+         </div>
+   
     </section>
 
 

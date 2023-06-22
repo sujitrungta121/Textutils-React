@@ -1,0 +1,128 @@
+:root{
+    --main-color: #647bff;
+    --body-color: #090a1a;
+    --container-color: #171b3c;
+    --heading-color: #222231;
+    --box-color: #0d0f26;
+    --bg-color: #fff;
+}
+.heading{
+   color:#222231;
+   font-size:5rem;
+   text-align:center;
+
+}
+.rightsection img{
+    width:300px;
+    height:280px;
+    border-radius:50%
+}
+.about{
+    /* display:grid;
+    grid-template-columns:repeat(2,2fr);
+    padding:70px; */
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+ 
+}
+.about p{
+    padding:15px;
+    width:50%;
+}
+.about h2{
+    padding:6px;
+    width:40%;
+}
+li img{
+    width:20px;
+    height:20px;
+}
+
+.skillsContainer{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top:15px;
+ 
+}
+.skills {
+    background-color: crimson;
+    border-radius: 15px;
+    width: 300px;
+    padding: 18px
+}
+.skills:hover{
+  transform:scale(1.2);
+}
+
+.skills li{
+    list-style:none;
+    padding:10px;
+}
+/* .skills ul{
+    border-radius:5px;
+    
+} */
+
+/* .skills :hover{
+    transform:scale(1.3);
+   width:150px; height:400px;  
+  
+    background-color:rgb(255, 0, 47);
+    
+} */
+/* .skills ul:hover{
+    padding-top:10px;
+} */
+/* .skills:hover{
+     background-color:rgb(255, 0, 47);
+     border-radius:5px;
+     width:450px; height:300px;
+     display:flex;
+     flex-direction:row;
+} */
+
+.projectContainer{
+    display:flex;flex-direction:row;
+    justify-content:space-around;
+    
+}
+.projects{
+    width:300px;
+    height:300px;
+    background-color: rgb(59, 154, 8);
+    border-radius: 7px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.projectHeading{
+    font-size:3rem;
+    text-align:center;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+
+.btn{
+    border-radius: 7px;
+    background-color: green;
+    width: 149px;
+    height: 41px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:5px;
+}
+.btn a{
+    text-decoration:none;
+    color:white;
+}
+.skills h3{
+    text-align:center;
+}
+.skills li img{
+    padding-right:8px;
+}
+
+
