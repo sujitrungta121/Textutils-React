@@ -124,5 +124,9 @@ li img{
 .skills li img{
     padding-right:8px;
 }
+nav ul{
+    display:flex;
+    justify-content: center;
+}
 
 
